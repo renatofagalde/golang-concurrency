@@ -7,7 +7,7 @@ func printSomething(s string) {
 }
 
 func main() {
-	printSomething("example 01")
+	go printSomething("example 01")
 
 	printSomething("example 02")
 }
