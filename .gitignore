@@ -1,0 +1,48 @@
+# ---- Go ----
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.*
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Dependency directories
+vendor/
+
+# Build output
+/bin/
+/dist/
+/build/
+
+# ---- JetBrains (GoLand / IntelliJ) ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---- Editors ----
+.vscode/
+*.swp
+*.swo
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Local env ----
+.env
+.env.local
+*.local
