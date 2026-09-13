@@ -12,6 +12,7 @@ func printSomething(s string) {
 func main() {
 	go printSomething("example 01")
 
-	time.Sleep(1 * time.Second)
+	time.Sleep(3 * time.Second)
+
 	printSomething("example 02")
 }
