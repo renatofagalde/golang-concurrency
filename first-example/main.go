@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Println("teste")
-	nome := "exemplo"
+func printSomething(s string) {
+	fmt.Println(s)
+}
 
-	fmt.Printf("%s", nome)
+func main() {
+	printSomething("example 01")
+
+	printSomething("example 02")
 }
