@@ -10,7 +10,11 @@ func printSomething(s string) {
 }
 
 func main() {
-	go printSomething("example 01")
+	// go printSomething("example 01")
+	// o
+	words := []string{
+		"alpha", "beta", "delta", "gamma", "pi", "zeta", "eta", "theta", "epsilon",
+	}
 
 	time.Sleep(3 * time.Second)
 
